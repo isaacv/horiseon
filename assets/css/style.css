@@ -1,13 +1,16 @@
+/* This section is global */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body section only defines the bg of the website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header is defined inside body and maps to the Menu and Logo */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
